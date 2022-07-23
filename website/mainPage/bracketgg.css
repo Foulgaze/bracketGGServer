@@ -1,0 +1,325 @@
+
+@font-face {
+  font-family: arkibal;
+  src: url(../assets/ArkibalDisplay-Heavy.woff);
+}
+@font-face
+{
+  font-family:webpage;
+  src:url(../assets/PublicSans-Light.otf)
+}
+.playerDivW
+{
+  display : flex;
+  display: inline-block;
+  box-sizing : border-box;
+  border :4px solid #592E83;
+  background-color:white;
+  font-family:webpage;
+}
+.playerDivL
+{
+  display : flex;
+  display: inline-block;
+  box-sizing : border-box;
+  border :4px solid #592E83;
+  background-color:white;
+  font-family:webpage;
+
+}
+.matchMiddle
+{
+ border: none;
+    height: 5px;
+    /* Set the hr color */
+    color:  #592E83; /* old IE */
+    background-color:  #592E83; /* Modern Browsers */
+}
+.bigP
+{
+  padding : 2px;
+  margin: 2px;
+}
+.scoreDivW
+{
+  display : flex;
+  display: inline-block;
+  box-sizing : border-box;
+  border :4px solid green;
+  margin-left : -8px;
+  background-color:white;
+  font-family:webpage;
+
+}
+.scoreDivL
+{
+  display : flex;
+  display: inline-block;
+  box-sizing : border-box;
+  border :4px solid red;
+  margin-left : -8px;
+  background-color:white;
+  font-family:webpage;
+
+}
+.specificGame
+{
+  display : inline-block;
+}
+.overallDiv
+{
+  white-space : nowrap;
+    display: inline-grid;
+
+
+}
+.gamerTitle
+{
+ padding-left:10px;
+ 
+}
+.tournamentPlacementw
+{
+  display : flex;
+  display: inline-block;
+  border: 5px solid green;
+  margin-right: 5%;
+ margin-top:10%;
+ margin-bottom:10%;
+ background:white;
+ font-family: webpage;
+ border-radius:30%;
+ padding:5px;
+}
+.placementHeader
+{
+ padding:10px 20px 10px 10px;
+}
+.tournamentPlacementL
+{
+  display : flex;
+  display: inline-block;
+  border: 5px solid red;
+  margin-right: 5%;
+ margin-top:10%;
+ margin-bottom:10%;
+ background:white;
+ font-family: webpage;
+ border-radius:30%;
+ padding:5px;
+}
+.placementHeader
+{
+  font: arkibal;
+  text-align: center;
+}
+
+.deleteBtn
+{
+  display :inline-block;
+}
+.playerTitle
+{
+  display : inline-block;
+}
+
+#outerDiv
+{
+  display: flex;
+  background-color: #592E83;
+  padding: 10px;
+  margin:-8px;
+  
+}
+body
+{
+ background-color : CAA8F5; 
+}
+.tournamentDiv
+{
+  /* background-color : 50514F;
+  border-radius: 10px;
+   margin-left: 2%;
+  margin-right: 2%;
+  padding : 10px; */
+}
+.tournamentHeader
+{
+ margin:-10px; 
+ background-color: #9984D4;
+ border-radius: 10px 10px 0 0;
+ padding: 10px;
+}
+.specificTournament
+{
+  background-color : #9984D4;
+  border-radius: 10px;
+  margin : 1%;
+  padding: 10px;
+ display:inline-block;
+}
+.tournamentTitleHeader
+{
+  margin:0;
+  text-align : left;
+  font-family: arkibal;
+  display: inline-block;
+  min-width: 300px;
+  margin-right: 4.5vw;
+ 
+  
+}
+
+.eventDiv
+{
+  display : flex;
+  justify-content : left;
+ margin-top: 20px;
+}
+.eventHeader
+{
+  font-family: arkibal;
+  border-radius:12px;
+  text-align : lefter
+;
+}
+.missingTournamentTxt
+{
+  text-align: center;
+}
+
+#tournamentInputBtn,#tournamentInputField
+{
+  font-size: 200%;
+  font-family: arkibal;
+  border-radius: 14px;
+}
+#tournamentInputField
+{
+  width: 30vw;
+  background-color: #9984D4;
+}
+
+/*https://stackoverflow.com/questions/15314407/how-to-add-button-inside-input <-- YOINKED*/
+.InputButtonCombo {
+  /* This bit sets up the horizontal layout */
+  display:flex;
+  flex-direction:row;
+  
+  /* This bit draws the box around it */
+  border:0px solid grey;
+  background-color: 9984D4;
+  border-radius: 14px;
+  margin: 0px;
+
+
+  /* I've used padding so you can see the edges of the elements. */
+  padding:3px;
+}
+
+.inputField {
+  /* Tell the input to use all the available space */
+  flex-grow:2;
+  /* And hide the input's outline, so the form looks like the outline */
+  border:none;
+}
+
+.inputField:focus {
+  /* removing the input focus blue box. Put this on the form if you like. */
+  outline: none;
+}
+
+.innerButton {
+  /* Just a little styling to make it pretty */
+  border:1px solid #B27C66;
+  background:#B27C66;
+  color:black;
+}
+
+.playerButton
+{
+ border-radius: 14px;
+}
+.playerInput
+{
+ background-color:transparent;
+ padding: 1 5px;
+ height:103%;
+ border-radius:14px
+}
+.playerCombo
+{
+ background-color: white;
+}
+.eventDropdown
+{
+ margin-right: 4.5vw;
+ border-radius: 14px;
+ background-color:white;
+ min-width: 300px;
+}
+.eventPlayerButton
+
+{
+ margin-left: 9.5vw;
+ border-radius: 14px;
+ border: none;
+ background-color: white;
+}
+.playertitle
+{
+ border: 4px solid #B27C66;
+ padding: 5px;
+ border-radius: 0 10px 0 0;
+ background-color: #B27C66;
+ margin: 20px 0px 0px 0px;
+ font-family:webpage;
+}
+.overalldiv
+{
+ background-color: #B27C66;
+ border-radius: 0 10px 10px 10px;
+ grid-column-gap: 50px;
+ 
+}
+.roundTitle
+{
+ font-family: webpage;
+}
+.deleteBtn
+{
+  border: 4px solid #592E83;
+  padding: 5px;
+  border-radius: 0 10px 10px 0;
+  background-color: #592E83;
+  color:white;
+  font-family:webpage;
+}
+.deleteTourneyButton
+{
+  display: inline-block;
+ border-radius: 0px 0px 10px 10px;
+ border: transparent;
+ font-family: webpage;
+ padding:10px;
+ color:white;
+ background-color:#592E83;
+}
+body
+{
+ display:inline-block;
+ min-width:100%;
+}
+html
+{
+ display:inline-block;
+ min-width:100%;
+}
+.newTournamentInput
+{
+ margin-left:1%;
+}
+
+
+
+

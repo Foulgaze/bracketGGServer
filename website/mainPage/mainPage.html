@@ -1,0 +1,29 @@
+<html>
+<header>
+    <title>bracket.gg</title>
+    <link rel="stylesheet" href="bracketgg.css">
+    <link rel="stylesheet" href="awesomplete.css" />
+</header>
+<body id="mainBody">
+
+<div class="topBar">
+    <div id = "OuterDiv">
+        <form class = "InputButtonCombo newTournamentInput">
+            <input  type="text" class="inputField" id = "tournamentInputField" placeholder="Search For a Tournament">
+            <button type="button" class ="innerButton" id = "tournamentInputBtn" onclick="checkForTournament()" >Add</button>
+        </form>
+    </div>
+    
+    <h1 class = "missingTournamentTxt">No Tournament Found!</h1>
+    <br>
+    <div class = "tournamentDiv" id = "tournDiv">
+       
+    </div>
+
+</div>
+
+</body>
+
+<script src="awesomplete.js"></script>
+<script src ="bracketgg.js"></script>
+</html>
